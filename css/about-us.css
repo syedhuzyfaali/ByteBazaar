@@ -1,0 +1,392 @@
+body {
+    background-color: rgb(0, 0, 0);
+    background-image: url(background\ img.jpg);
+    background-size: cover;
+    backdrop-filter: blur(-1px);
+    background-repeat: no-repeat;
+    margin: 0px;
+    box-sizing: border-box;
+
+}
+
+.navbar {
+    position: sticky;
+    top: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.096);
+    height: 80px;
+    font-family: 'Ubuntu', sans-serif;
+    backdrop-filter: blur(10px);
+    z-index: 99;
+}
+
+.nav-items {
+    margin-top: -15px;
+}
+
+.nav-items>ul {
+    font-size: small;
+    list-style: none;
+}
+
+.nav-items>ul>li {
+    width: 150px;
+    float: left;
+}
+
+.nav-items>ul>li>a {
+    text-decoration: none;
+    color: white;
+}
+
+.navbar>.logo>img {
+    margin: 6px 0px 0px 10px;
+    height: 100px;
+    width: 100px;
+}
+
+
+.nav-container~h1 {
+    text-align: center;
+    color: white;
+}
+
+.about {
+    background-color: rgba(255, 255, 255, 0.432);
+    text-align: center;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.about h1 {
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1rem;
+    color: #ffffff;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.about-info {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+
+}
+
+.about-img {
+    width: 20rem;
+    height: 20rem;
+
+}
+
+.about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: contain;
+}
+
+.about-info p {
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    text-align: justify;
+}
+
+button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    margin: 2rem;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    background-color: #174549;
+    text-align: center;
+    cursor: pointer;
+    width: 15rem;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #6a7a67;
+}
+
+/* Team Section */
+.team {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.team h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.team-cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.514);
+    border-radius: 6px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    transition: transform 0.2s, box-shadow 0.2s;
+    width: 18rem;
+    height: 25rem;
+    margin-top: 10px;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.card-img {
+    width: 18rem;
+    height: 12rem;
+}
+
+.card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-info button {
+    margin: 2rem 1rem;
+}
+
+.card-name {
+    font-size: 2rem;
+    margin: 10px 0;
+}
+
+.card-role {
+    font-size: 1rem;
+    color: #888;
+    margin: 5px 0;
+}
+
+.card-email {
+    font-size: 1rem;
+    color: #555;
+}
+
+/* Footer */
+body {
+
+    font-family: Arial, sans-serif;
+}
+
+footer {
+    background-color: #00000036;
+    color: #fff;
+    padding: 20px;
+    backdrop-filter: blur(10px);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.foot-logo {
+    height: 45%;
+}
+
+.footer-section p {
+    text-align: justify;
+    font-size: small;
+    font-weight: 100;
+}
+
+.footer-section>.foot-logo>img {
+    width: 150px;
+    height: 150px;
+
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    width: 30%;
+    margin: 10px 0;
+}
+
+.footer-section2 {
+    width: 25%;
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+}
+
+.footer-section2>.heading {
+    grid-column: span 2;
+    height: 00px;
+}
+
+.footer-section2>.social-accounts {
+    position: relative;
+}
+
+.social-accounts a>span {
+    position: absolute;
+    top: 20%;
+    left: 40%;
+}
+
+.social-accounts a>img {
+    position: absolute;
+    left: 10%;
+}
+
+.foot-partners {
+    margin-top: 45px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-evenly;
+
+}
+
+/* .footer-section img{
+backdrop-filter: blur(10px);
+} */
+
+footer h2 {
+    color: #ff8c00;
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 5px;
+}
+
+footer a {
+    color: rgb(80, 80, 80);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.copyright>h3 {
+    margin: 0;
+    text-align: center;
+    font-weight: 50;
+}
+
+@media (max-width: 768px) {
+    nav {
+        display: block;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    .nav-links {
+        margin-top: 1rem;
+        justify-content: space-between;
+    }
+
+    .nav-links li {
+        margin-right: 0;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 0.9rem;
+    }
+
+    .about-info {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-img {
+        width: 60%;
+        height: 60%;
+        margin-bottom: 1rem;
+    }
+
+    .about-info p {
+        margin: 1rem 2rem;
+    }
+
+    .about-info button {
+        margin: 1rem 2rem;
+        width: 10rem;
+    }
+
+    .team {
+        margin: 0 1rem;
+    }
+}
+
+.Who-we-are-section {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 20px 0px;
+    margin-top: 20px;
+    color: #ffffff;
+}
+
+.Who-we-are-section h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 15px;
+    box-shadow: red;
+}
+
+.Who-we-are-section p {
+    line-height: 1.6;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.card .card-img {
+    width: 100%px;
+    height: 250px;
+}
+
+
+.team h1 {
+    color: #ffffff;
+}
+
+.about h1 {
+    /* text-shadow: #ff8c00;
+        margin-top: -7%;
+        background-image: url(background\ img.jpg);
+        color: white; */
+}

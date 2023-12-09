@@ -1,0 +1,123 @@
+.container{
+    width: 95%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    max-height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: rgba(255, 255, 255, 0.1); */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.0) );
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+
+    border-radius: 20px;
+
+}
+
+.container::-webkit-scrollbar{
+    display: none;
+}
+
+.category-heading > h1{
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+}
+
+.prod-list-div {
+    height: 225px;
+    max-width: 90%;
+    padding: 20px 10px 10px 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: rgba(199, 199, 199, 0.432);
+    backdrop-filter: blur(15px);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.prod-img{
+    width: 20%;
+    height: 100%;
+}
+
+.prod-img > a > img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.prod-info{
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.prod-info > a > h2, .prod-info > p{
+    text-align: justify;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-decoration: none;
+    
+    
+}
+.prod-info > a >h2{
+    line-height: 21px;
+    word-spacing: -4px;
+    color: #134348;
+}
+
+ .prod-info > a >h2:hover{
+    color: #0f3338;
+}
+
+.prod-btn{
+    padding-top: 20px;
+    width: 15%;
+    height: 100%;
+    
+}
+
+.prod-btn button{
+    width: 150px;
+    height: 2rem;
+    font-size: 15px;
+    border-radius: 6px;
+    border: 0px solid black;
+}
+
+.cart-btn > button{
+    background-color: rgb(255, 189, 67);
+}
+
+.cart-btn > button:hover{
+    background-color: rgb(253, 175, 30);
+
+}
+
+.wishlist-btn > button{
+    background-color: rgb(201, 201, 201);
+}
+.wishlist-btn > button:hover{
+    background-color: rgb(155, 155, 155);
+
+}
+.prod-btn > .btn{
+    margin-top: 15px;
+}
+
+.prod-btn img {
+    width: 15px;
+    height: 15px;
+}
+

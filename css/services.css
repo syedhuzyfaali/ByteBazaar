@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  
+  
+  section {
+    max-width: 800px;
+    margin: 2em auto;
+    padding: 1.5em;
+    background-color: #ffffff50;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  h2 {
+    color: rgb(255, 255, 255);
+    text-align: center ;
+    font-size:35px ;
+    color: color(srgb red green blue);
+
+  }
+  .head1{
+
+   font-weight: 600;
+   font-family:'Times New Roman', Times, serif ;
+  }
+  
+  form {
+    display: grid;
+    grid-gap: 1.5em;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid rgb(46, 46, 46);
+    border-radius: 4px;
+    background-color: rgb(46, 46, 46);
+    box-sizing: border-box;
+    color: #fff;
+    outline: none;
+  }
+  
+
+  .para01{
+    color: orange;
+      
+  }
+  button {
+    background-color:orange;
+    color: #fff;
+    padding: 1em;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #154348;
+  }
+  
+  #buildResult {
+    margin-top: 1.5em;
+    font-weight: bold;
+    color: #333;
+  }
+  
