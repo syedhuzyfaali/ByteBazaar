@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/services.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+    <title>Services</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <div class="navbar">
+            <div class="logo">
+                <a href="homepage.html"> &nbsp;<img src="images/logo.png" alt=""></a>
+            </div>
+            <div class="nav-items">
+                <ul>
+                    <li id="nav-float"><a href="homepage.html">HOME</a></li>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="about-us.html">ABOUT US</a></li>
+                    <li><a href="contact-us.html">CONTACT US</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="search-div">
+            <input type="search" name="" id="search-box" placeholder="Search Products....">
+            <img src="images/search.png" alt="">
+        </div>
+    </div>
+    <section id="services">
+        <h2>Build Your Custom PC</h2>
+        <p class="para01">Choose Components and Lets Us Built Your Dream Pc</p>
+
+        <form id="pcBuilderForm">
+            <label for="casing">Casing:</label>
+            <select id="casing" name="casing">
+                <option value="">Select</option>
+                <option value="">Aurora Nexus</option>
+                <option value="">Shadow Sculpt</option>
+                <option value="">Cyber Matrix X</option>
+                <option value="">CoolerMaster</option>
+
+            </select>
+
+            <label for="motherboard">MotherBoard:</label>
+            <select id="motherboard" name="motherboard">
+                <option value="">Select</option>
+                <option value="">QuantumFlow Elite</option>
+                <option value="">StellarTech Fusion</option>
+                <option value="">HorizonSync Catalyst</option>
+                <option value="">InfinityForge Matrix</option>
+
+
+            </select>
+
+            <label for="powersupply">PowerSupply:</label>
+            <select id="powersupply" name="powersupply">
+                <option value="">Select</option>
+                <option value="">VoltBoost Pro</option>
+                <option value="">StellarPower Nexus</option>
+                <option value="">ElectraFlow Elite</option>
+                <option value="">PowerStream Dynamo</option>
+
+
+            </select>
+
+            <label for="processor">Processor:</label>
+            <select id="processor" name="processor">
+                <option value="">Select</option>
+
+                <option value="">QuantumCore X</option>
+                <option value="">CelestialBoost X</option>
+                <option value="">PhoenixPlex X</option>
+                <option value="">HyperMatrix X </option>
+
+
+            </select>
+
+
+            <label for="graphicscard">Graphics Card:</label>
+            <select id="graphicscard" name="graphicscard">
+                <option value="">Select</option>
+
+                <option value="">Gtx 750 Ti</option>
+                <option value="">Gtx 650 Ti</option>
+                <option value="">Rtx 3080 Ti</option>
+                <option value="">Rtx 3090 Ti</option>
+
+
+            </select>
+
+            <label for="storage">Storage:</label>
+            <select id="storage" name="storage">
+                <option value="">Select</option>
+
+                <option value="">QuantumDrive Elite 1TB</option>
+                <option value="">ZenithBoost Pro 1TB</option>
+                <option value="">SSD 1TB</option <option value="">M2 1TB</option>
+
+            </select>
+
+            <label for="ram">Ram:</label>
+            <select id="ram" name="ram">
+                <option value="">Select</option>
+
+                <option value="">QuantumSpeed Elite 32Gb</option>
+                <option value="">HyperSync Nexus 32Gb</option>
+                <option value="">AuroraBoost Nexus 32Gb</option>
+                <option value="">TitanPlex Pulse 32Gb</option>
+
+
+            </select>
+
+            <button type="button" onclick="submitForm()">Built Now</button>
+        </form>
+
+        <div id="buildResult">
+
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="foot-logo">
+                    <img src="images/logo.png" alt="">
+                </div>
+                <p>Explore a world of possibilities with our computer accessories. Elevate your computing experience with high-quality peripherals and essential gadgets. Find the perfect blend of style and functionality at Byrte Bazaar.
+                Your journey to superior accessories starts here.</p>
+            </div>
+            <div class="footer-section footer-section2">
+                <div class="heading">
+                    <h2>Social Accounts</h2>
+                </div>
+
+                <div class="social-accounts">
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="images/insta.png" alt="">
+                        <span> Instagram</span>
+                    </a>
+                </div>
+                <div class="social-accounts">
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="images/faceboook.png" alt="">
+                        <span> Facebook</span>
+                    </a>
+                </div>
+                <div class="social-accounts">
+                    <a href="https://twitter.com/" target="_blank">
+                        <img src="images/twitter.png" alt="">
+                        <span> Twitter</span>
+                    </a>
+                </div>
+                <div class="social-accounts">
+                    <a href="https://www.linkedin.com/" target="_blank">
+                        <img src="images/linkedin.png" alt="">
+                        <span> LinkedIn</span>
+                    </a>
+                </div>
+
+            </div>
+            <div class="footer-section">
+                <h2>Our Partners</h2>
+                <div class="foot-partners">
+                    <div class="partner">
+                        <img src="images/partners/microdoft.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img src="images/partners/asus.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img src="images/partners/amd.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img src="images/partners/ryzen.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img src="images/partners/hp.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img src="images/partners/nvidia.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img src="images/partners/IBM.png" alt="">
+                    </div>
+                    <div class="partner">
+                        <img src="images/" alt="">
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="copyright">
+            <h3>&copy;2023 Byte Bazaar</h3>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
